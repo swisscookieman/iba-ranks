@@ -39,11 +39,11 @@ const STARTING_ELO = 1200;
 const COLLECTION_NAME = 'rankr_players_v1'; // Changing this resets the DB effectively
 
 const TIERS = [
-  { name: 'S', min: 1800, color: 'text-yellow-400 border-yellow-400/30 bg-yellow-400/10' },
-  { name: 'A', min: 1600, color: 'text-red-400 border-red-400/30 bg-red-400/10' },
-  { name: 'B', min: 1400, color: 'text-purple-400 border-purple-400/30 bg-purple-400/10' },
-  { name: 'C', min: 1200, color: 'text-blue-400 border-blue-400/30 bg-blue-400/10' },
-  { name: 'D', min: 1000, color: 'text-green-400 border-green-400/30 bg-green-400/10' },
+  { name: 'S', min: 1600, color: 'text-yellow-400 border-yellow-400/30 bg-yellow-400/10' },
+  { name: 'A', min: 1400, color: 'text-red-400 border-red-400/30 bg-red-400/10' },
+  { name: 'B', min: 1200, color: 'text-purple-400 border-purple-400/30 bg-purple-400/10' },
+  { name: 'C', min: 1000, color: 'text-blue-400 border-blue-400/30 bg-blue-400/10' },
+  { name: 'D', min: 900, color: 'text-green-400 border-green-400/30 bg-green-400/10' },
   { name: 'F', min: 0,    color: 'text-gray-400 border-gray-400/30 bg-gray-400/10' },
 ];
 

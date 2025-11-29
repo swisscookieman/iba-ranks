@@ -13,10 +13,21 @@ import { getAuth, signInWithCustomToken, signInAnonymously, onAuthStateChanged }
  * This data is only used if the database is empty (first run).
  */
 const INITIAL_ROSTER = [
-  { name: "Coffee" }, { name: "Tea" }, { name: "Water" }, 
-  { name: "Soda" }, { name: "Juice" }, { name: "Milk" }, 
-  { name: "Energy Drink" }, { name: "Beer" }, { name: "Wine" }, 
-  { name: "Whiskey" }, { name: "Matcha" }, { name: "Bubble Tea" }
+  // Eastern Conference
+  { name: "b0kzs" }, { name: "Mantine" }, { name: "Santos" }, { name: "Doc" },
+  { name: "DP" }, { name: "Jedi" }, { name: "Karl" }, { name: "Coach Totems" },
+  { name: "Pharaneki" }, { name: "Coach John" }, { name: "NIF" }, { name: "L1" },
+  { name: "Poosh" }, { name: "Jdc" }, { name: "Green Bay" }, { name: "Surfer Nuckloz" },
+  { name: "Krevun" }, { name: "Smileys" }, { name: "fishies" }, { name: "deltazoid" },
+  { name: "calen thomas for president" }, { name: "beetlejuice" }, { name: "! Marx" },
+  
+  // Western Conference
+  { name: "FilthanolPusa" }, { name: "Dominatorsixty" }, { name: "Jonathan" },
+  { name: "Snowypusa" }, { name: "ATCD" }, { name: "Loc The Viking" },
+  { name: "KendrickCookieMan" }, { name: "Inactive" }, { name: "c0kzs" },
+  { name: "Coach Capybara" }, { name: "delo" }, { name: "v8prius" },
+  { name: "Ethanol" }, { name: "Meek" }, { name: "Sapsaps" },
+  { name: "al" }, { name: "theOne" }, { name: "Art" }, { name: "Hof" }, { name: "Rawmen" }, { name: "gdbs" }, { name: "bliss" },
 ];
 
 /**
